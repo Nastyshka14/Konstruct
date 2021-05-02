@@ -1,0 +1,94 @@
+@media screen and (max-width: 1150px) {
+    .about__content {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about__info {
+        max-width: 100%;
+    }
+
+    .proposal__info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .proposal__title::before {
+        top: 100%;
+        left: calc(50% - 25px);
+    }
+
+    .proposal__subtitle {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav__list {
+        display: none;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+
+    .about__cards {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .about__card {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .proposal__title,
+    .proposal__subtitle {
+        margin-bottom: 15px;
+    }
+
+    .proposal__cards {
+        flex-direction: column;
+    }
+
+    .proposal__card:nth-child(2) {
+        margin: 0;
+    }
+
+    .proposal__card {
+        margin: 10px 0;
+    }
+
+    .footer__form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__form-title {
+        margin: 0;
+    }
+
+    .footer__form-item,
+    .footer__form-btn {
+        width: 100%;
+    }
+
+    .footer__body {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer__about,
+    .footer__links,
+    .footer_contacts {
+        margin-bottom: 15px;
+    }
+
+    .footer__about {
+        align-items: center;
+    }  
+
+}
+
